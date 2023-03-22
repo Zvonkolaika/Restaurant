@@ -1,0 +1,325 @@
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Mein Restaurant</title>
+  <style>
+
+   html {
+  scroll-behavior: smooth;
+}
+
+      
+a {color: #69abb2; 
+  text-decoration: none;
+
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+    .myBody {
+      margin: 0px;
+      font-family: 'Open Sans', sans-serif;
+    }
+
+    .atf-image {
+      width: 100%;
+      height: 800px;
+      object-fit: cover;
+    }
+
+    .logo {
+      font-family: 'Yeseva One', cursive;
+      font-size: 6ch;
+      color: #c1f1f4;
+      filter: drop-shadow(2px 4px 6px black);
+      position: absolute;
+      top: 480px;
+      align-items: center;
+      
+    }
+
+    .headline {
+      font-family: 'Sacramento', cursive;
+      font-size: 7ch;
+      color: #a4dae0;
+      filter: drop-shadow(2px 4px 6px black);
+      position: relativ;
+      
+    }
+
+    .sacramento2 {
+      font-family: 'Sacramento', cursive;
+      font-size: 4ch;
+    }
+
+    .menu{
+      position: absolute;
+      top: 16px;
+      right: 100px;
+    }
+
+
+    .menu a{
+      color: white;
+      text-decoration: none;
+      font-weight: 400;
+      filter: drop-shadow(2px 4px 6px black);
+      margin-left: 32px;
+    }
+
+    .menu a:hover{
+    color:#a4dae0;
+    }
+
+    .button {
+  background-color: #a4dae0;
+  border: none;
+  color: black !important;
+  padding: 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 550 !important;
+}
+
+     .button:hover{
+    color: white !important;
+    
+    background-color: #cfdbdd ;
+    }
+ 
+    .main-container {
+      padding-left: 100px;
+      padding-right: 100px;
+      background-color: rgba(0, 0, 0, 0.1);
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 500px;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+  
+    
+    }
+
+    .menu-container {
+      padding-left: 100px;
+      padding-right: 100px;
+      padding-bottom: 32px;
+      padding-top: 32px;
+      background-color: #c2d6d6;
+
+    }
+
+    .main {
+      font-size: 2.5ch;
+      text-align: center;
+      filter: drop-shadow(2px 4px 6px black);
+    
+    }
+
+    .container {
+      padding-left: 100px;
+      margin-bottom: 64px;
+      padding-right: 100px;
+      /* padding-top: 32px; */
+
+    }
+
+    .container-footer {
+      background-color: rgb(35, 38, 41);
+      color: white;
+      padding: 100px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin-bottom: 0;
+    }
+
+    .googlemaps {
+      height: 350px;
+      width: 100%;
+    }
+
+    .footer-link {
+      color: white;
+      text-decoration: none;
+      cursor: pointer;
+    }
+    
+    .footer-link:hover {
+      background-color: blue ;
+      color: white ;
+      text-decoration: underline;
+      margin-bottom: 0;
+    }
+
+  </style>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Sacramento&family=Yeseva+One&display=swap" rel="stylesheet">
+</head>
+
+<body class="myBody">
+  
+  <img class="atf-image" src="./img/aot.jpg">
+
+  <div class="main-container">
+    
+    <h1 class="headline">Herzlich Wilkommen!</h1>
+    <h2 class="main">Erleben Sie die Vielfalt der europäischen Küche mit unseren traditionellen Fischgerichten!
+    </h2>
+    <h1 class="logo">SALTWATER</h1>
+  </div>
+
+  <div class="menu">
+  
+   <a href="#contact">RESERVIEREN</a>
+   <a class="button" href="#">BESTELL ONLINE</a>
+   <a href="#about">ABOUT SALTWATER</a>
+   <a href="#contact">KONTAKT</a>
+   <a href="#address">ANFAHRT</a>
+   
+  
+  </div>
+  <div class="menu-container">
+    <h2 class="sacramento2">Speisekarte</h2>
+    Unsere Speisekarte bietet Ihnen eine breite Auswahl - alles frisch zubereitet und sorgfältig ausgewählt, um Ihren
+    Gaumen zu verwöhnen.
+  </div>
+  <div class="container">
+    <table>
+      <tr>
+        <td>1</td>
+        <td>Fiskesuppe</td>
+        <td>Eine köstliche Suppe aus verschiedenen Fischarten, Gemüse und Gewürzen</td>
+        <td>9 Euro
+      </tr>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Smørrebrød</td>
+        <td>Eine traditionelle dänische Spezialität, die aus belegtem Roggenbrot besteht</td>
+        <td>10 Euro
+      </tr>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Dorade alla griglia</td>
+        <td>Ein klassisches italienisches Grillgericht mit Dorade, das einfach mit Olivenöl, Zitrone, Knoblauch und
+          Kräutern mariniert wird</td>
+        <td>21 Euro
+      </tr>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>Brathering</td>
+        <td>Ein norddeutsches Gericht, bei dem Heringe in einer würzigen Marinade eingelegt und anschließend frittiert
+          werden. Es wird mit Bratkartoffeln und Salat serviert</td>
+        <td>15 Euro
+      </tr>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>Crostata di frutta</td>
+        <td>Ein fruchtiger italienischer Obstkuchen, der mit frischen Blaubeeren und Birnen belegt wird</td>
+        <td>11 Euro
+      </tr>
+      </tr>
+    </table>
+    <br>
+    <br>
+    Jetzt die Speisekarte <a href="./downloads/speisekarte.pdf" target="_blank">herunterladen</a>
+  </div>
+  <div class="container">
+    <h2 class="sacramento2">Unsere Öffnunngszeiten</h2>
+    <table>
+      <tr>
+        <td>Mo - Fr:</td>
+        <td>12.00 - 23.00 Uhr</td>
+      </tr>
+      <tr>
+        <td>Sa:</td>
+        <td>11.00 - 24.00 Uhr</td>
+      </tr>
+      <tr>
+        <td>So:</td>
+        <td>11.00 - 23.00 Uhr</td>
+      </tr>
+    </table>
+  </div>
+  <div class="container" id="about" >
+    <h2 class="sacramento2">About unser Restaurant</h2>
+    <video width="480" height="360" autoplay muted>
+      <source src="./video/video.mp4" type="video/mp4">
+      <source src="./video/video.ogg" type="video/ogg">
+    Your browser does not support the video tag.
+    </video>
+    
+  </div>
+  <div class="container" id="address" >
+    <h2 class="sacramento2">Anfahrt</h2>
+    Unser Restaurant befindet sich: Rosenheimer Str. 139, 81379 München
+    <br>
+    <br>
+    <iframe class="googlemaps"
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2663.2737687866875!2d11.601989!3d48.12424360000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479ddf8378e729b3%3A0x597089178dfbfc81!2sRosenheimer%20Str.%20139%2C%2081671%20M%C3%BCnchen!5e0!3m2!1sde!2sde!4v1678880765881!5m2!1sde!2sde"
+      style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+  <div class="container" id="contact">
+  <h2 class="sacramento2" >Kontakt</h2>
+  So kannst du uns kontaktieren:
+  <br>
+  <br>
+    <table>
+      <tr>
+        <td>Adresse:</td>
+        <td>Rosenheimer Str. 139, 81379 München</td>
+      </tr>
+      <tr>
+        <td>Telefon:</td>
+        <td><a href="tel:+4915733170363">+4915733170363</a></td>
+      </tr>
+      <tr>
+        <td>E-Mail:</td>
+        <td><a href="mailto:hannakavaliova83@gmail.com">hannakavaliova83@gmail.com</a></td>
+      </tr>
+    </table>
+  </div>
+  <!-- <div class="container">
+    <i>To learn more about how to become a webdeveloper you can look here:</i>
+    <br>
+    <br>
+    <iframe src="https://www.developerakademie.com" width="300" height="200"></iframe>
+    <br>
+    <br>
+    <i>...or here</i>
+    <br>
+    <br>
+    <iframe width="300" height="200" src="https://www.youtube.com/embed/-D2paaCxb1M" title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen></iframe>
+    <br>
+    <br>
+  </div> -->
+  <div class="container-footer">
+    <div>
+    (c) Copyright 2023 Developer Akademie GmbH <br>
+  </div>
+  <div>
+    <a href="impressum.html" class="footer-link">Impressum</a> |
+    <a href="datenschutz.html" class="footer-link">Datenschutz</a>
+  </div>
+  </div>
+</body>
+
+</html>
